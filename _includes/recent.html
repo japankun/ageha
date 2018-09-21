@@ -1,0 +1,10 @@
+<div id="photo"></div>
+<script>
+$(document).ready(function() {
+    function photo(data) {
+      var photoHTML = '<img src="'+data.resent+'" width="320">';
+      $('#photo').html(photoHTML);
+    };
+    $.getJSON("/live/recent.json", photo);
+});
+</script>
