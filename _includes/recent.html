@@ -3,7 +3,7 @@
 <script>
 $(document).ready(function() {
     function photo(data) {
-      var photoHTML = '<img src="'+data.recent+'" width="320">';
+      var photoHTML = '<a href="'+data.recent+'"><img src="'+data.recent+'" width="320"></a>';
       $('#photo').html(photoHTML);
     };
     $.getJSON("/live/recent.json", photo);
