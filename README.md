@@ -7,7 +7,7 @@
 
 ### `!sutacheck`
 すたちゅーを飛ばすことができます。
-powerd by [StaTobashi](https://github.com/rgx6/StaTobashi/)
+powered by [StaTobashi](https://github.com/rgx6/StaTobashi/)
 
 ### `!snapshot`
 配信画面を記録することができます。過去に記録された画像はこちらで見ることができます。
