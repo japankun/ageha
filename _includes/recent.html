@@ -1,9 +1,10 @@
 <div id="photo"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js" type="text/javascript"></script>
 <script>
 $(document).ready(function() {
     function photo(data) {
-      var photoHTML = '<a href="'+data.recent+'"><img src="'+data.recent+'" width="320"></a>';
+      var photoHTML = '<a href="'+data.recent+'" data-lightbox=""><img src="'+data.recent+'" width="320"></a>';
       $('#photo').html(photoHTML);
     };
     $.getJSON("/live/recent.json?id="+Math.random(), photo);
