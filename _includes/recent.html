@@ -6,7 +6,7 @@
 <script>
 $(document).ready(function() {
     function photo(data) {
-      var photoHTML = '<a href="'+data.recent+'"><img src="'+data.recent+'" width="320"></a>';
+      var photoHTML = '<a href="'+data.recent+'" data-lity><img src="'+data.recent+'" width="320"></a>';
       $('#photo').html(photoHTML);
     };
     $.getJSON("/live/recent.json?id="+Math.random(), photo);
