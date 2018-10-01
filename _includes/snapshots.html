@@ -2,6 +2,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <link href="https://ageha.jpnkn.com/assets/lity.min.css" rel="stylesheet">
 <script src="https://ageha.jpnkn.com/assets/lity.min.js"></script>
+<script src="https://ageha.jpnkn.com/assets/lazyload.min.js"></script>
 
 <script>
 $(document).ready(function() {
@@ -11,7 +12,7 @@ $(document).ready(function() {
       
       data.images.forEach(function(image) {
         
-        photoHTML += '<a href="'+image+'" data-lity><img src="'+JSON.parse(JSON.stringify(image).replace(".png", "t.png"))+'" width="160"></a>';
+        photoHTML += '<a href="'+image+'" data-lity><img class="lazyload" src="'+JSON.parse(JSON.stringify(image).replace(".png", "t.png"))+'" width="160"></a>';
       });
     
       $('#photo').html(photoHTML);
