@@ -11,10 +11,13 @@ $(document).ready(function() {
     
       $.each(data, function(i, images) {
         photoHTML += '<a href="'+images+'" data-lity><img src="'+(images.replace(".png", ""))+'t.png" width="320"></a>';
-          
       }); // end each
+        
       $('#photo').html(photoHTML);
+        
+    };
       
     $.getJSON("/live/snapshot.json?id="+Math.random(), photo);
+    
 });
 </script>
