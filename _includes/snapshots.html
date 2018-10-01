@@ -9,9 +9,12 @@ $(document).ready(function() {
         
       var photoHTML = "";
       
-       photoHTML += '<a href="'+data.images[0]+'" data-lity><img src="'+data.images[0].replace(".png", "t.png")+'" width="320"></a>';
+      data.images.forEach(funcntion(image) {
+        photoHTML += '<a href="'+image+'" data-lity><img src="'+image.replace(".png", "t.png")+'" width="160"></a>';
+      });
+    
       $('#photo').html(photoHTML);
-
+    
     };
     
     $.getJSON("/live/snapshot.json?id="+Math.random(), photo);
