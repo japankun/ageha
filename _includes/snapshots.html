@@ -10,7 +10,7 @@ $(document).ready(function() {
       var photoHTML = "";
     
       $.each(data, function(i, images) {
-        photoHTML += '<a href="'+images+'" data-lity><img src="'+(images.toString.replace(".png", ""))+'t.png" width="320"></a>';
+        photoHTML += '<a href="'+images+'" data-lity><img src="'+(images.toString().replace(".png", ""))+'t.png" width="320"></a>';
       }); // end each
         
       $('#photo').html(photoHTML);
