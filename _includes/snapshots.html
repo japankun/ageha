@@ -10,7 +10,8 @@ $(document).ready(function() {
       var photoHTML = "";
       
       data.images.forEach(function(image) {
-        photoHTML += '<a href="'+image+'" data-lity><img src="'+image+'" width="160"></a>';
+        
+        photoHTML += '<a href="'+image+'" data-lity><img src="'+JSON.parse(JSON.stringify(image).replace(".png", "t.png"))+'" width="160"></a>';
       });
     
       $('#photo').html(photoHTML);
