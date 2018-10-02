@@ -53,3 +53,10 @@ powered by [StaTobashi](https://github.com/rgx6/StaTobashi/)
 |開催時期|サークルカット|タイトル|URL|
 |:---:|---|---|---|
 |2018秋|![](https://i.imgur.com/Qoz2eKE.png)|PeerCastでアゲハチョウを観察しよう|[https://18a.casket.jpnkn.com/](https://18a.casket.jpnkn.com/)|
+
+### その他のリソースなど
+
+- 最新のsnapshotの画像URL
+  - https://ageha.jpnkn.com/live/recent.json
+- snapshotの画像URL一覧
+  - https://ageha.jpnkn.com/live/snapshot.json
