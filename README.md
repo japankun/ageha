@@ -58,7 +58,11 @@ powered by [StaTobashi](https://github.com/rgx6/StaTobashi/)
 [https://www.youtube.com/playlist?list=PLhQpnKWi15TrDLW8dwj7JLe-GIUotUDzH](https://www.youtube.com/playlist?list=PLhQpnKWi15TrDLW8dwj7JLe-GIUotUDzH)
 
 ## スタジオ紹介
+
 2018年の8月編、9月編はこの専用スタジオブースから生放送していました。
+画像はLED照明をフル点灯させた状態でこの照明の輝度を落としカメラチェックコマンドに使用していました。
+常時ついていた照明は3.3Vの白色LED4灯の輝度を落とし10lxに調整したものです。
+
 ![https://i.imgur.com/3557LUW.png](https://i.imgur.com/3557LUWl.png)
 
 # きゃすけっと出品物
