@@ -57,6 +57,10 @@ powered by [StaTobashi](https://github.com/rgx6/StaTobashi/)
 #### アゲハチョウ アーカイブ 2018 9月編
 [https://www.youtube.com/playlist?list=PLhQpnKWi15TrDLW8dwj7JLe-GIUotUDzH](https://www.youtube.com/playlist?list=PLhQpnKWi15TrDLW8dwj7JLe-GIUotUDzH)
 
+## スタジオ紹介
+2018年の8月編、9月編はこの専用スタジオブースから生放送していました。
+![https://i.imgur.com/3557LUW.png](https://i.imgur.com/3557LUWl.png)
+
 # きゃすけっと出品物
 
 |開催時期|サークルカット|タイトル|URL|
